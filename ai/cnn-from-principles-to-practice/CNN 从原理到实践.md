@@ -1,7 +1,7 @@
 ---
 title: 一文真正读懂卷积神经网络（CNN）：从卷积公式到 PyTorch 实践
 description: 从一次卷积计算出发，结合图解、公式和可运行代码，逐步认识 CNN 的结构、原理和训练过程。
-tags: [深度学习, CNN, 计算机视觉, PyTorch]
+author: Jack Yao`ntags: [深度学习, CNN, 计算机视觉, PyTorch]
 ---
 
 # 一文真正读懂卷积神经网络（CNN）：从卷积公式到 PyTorch 实践
