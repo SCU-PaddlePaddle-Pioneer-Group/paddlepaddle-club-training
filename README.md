@@ -68,7 +68,8 @@
 | 日期 | 教程 / 文件 | 版本 | 更新内容 | 参与者 |
 | --- | --- | --- | --- | --- |
 | 2026-09-04 | CNN 从原理到实践 | 首次收录 | 收录 CNN 原理教程、CIFAR-10 PyTorch 训练脚本和 PNG/SVG 配图 | Jack Yao / @Vantalens |
-| 2026-09-14 | 团队开发与 Git 操作指南 | v1.0.0 | 首次发布，覆盖 Git 与 GitHub 基础、功能分支、Fork、Pull Request、评审、冲突、安全撤销和故障排查 | Jack Yao |`n| 2026-09-21 | CNN 从原理到实践 | v1.0.1 | 补充作者署名：Jack Yao / @Vantalens | Jack Yao |
+| 2026-09-14 | 团队开发与 Git 操作指南 | v1.0.0 | 首次发布，覆盖 Git 与 GitHub 基础、功能分支、Fork、Pull Request、评审、冲突、安全撤销和故障排查 | Jack Yao |
+| 2026-09-21 | CNN 从原理到实践 | v1.0.1 | 补充作者署名：Jack Yao / @Vantalens | Jack Yao |
 | 2026-09-21 | AI 分类说明与仓库 README | v1.2.0 | 加入 CNN 教程导航、AI 分类入口、主要内容索引和当前资料状态 | Jack Yao |
 
 后续更新教程时，建议记录变更日期、版本号、主要改动、影响章节、验证方式和参与者。
