@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">浏览器请求网页的基本链路</title>
+  <desc id="desc">用户输入网址后，浏览器查询 DNS，建立连接，向 Web 服务器请求 HTML，再请求 CSS、JavaScript 和图片并完成渲染。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#087f6b"/></marker>
+    <style>.bg{fill:#f5f1e8}.card{fill:#fffdf7;stroke:#24352f;stroke-width:3}.accent{fill:#087f6b}.title{font:700 34px 'Microsoft YaHei',sans-serif;fill:#17211d}.text{font:24px 'Microsoft YaHei',sans-serif;fill:#24352f}.small{font:20px 'Microsoft YaHei',sans-serif;fill:#56645f}.line{stroke:#087f6b;stroke-width:5;fill:none;marker-end:url(#arrow)}</style>
+  </defs>
+  <rect class="bg" width="1200" height="620" rx="32"/>
+  <text class="title" x="60" y="72">从网址到网页：一次简化的请求过程</text>
+  <rect class="card" x="60" y="150" width="240" height="180" rx="22"/>
+  <text class="text" x="180" y="215" text-anchor="middle">浏览器</text><text class="small" x="180" y="260" text-anchor="middle">输入 URL</text><text class="small" x="180" y="292" text-anchor="middle">组织 HTTP 请求</text>
+  <rect class="card" x="480" y="105" width="240" height="140" rx="22"/>
+  <text class="text" x="600" y="165" text-anchor="middle">DNS</text><text class="small" x="600" y="205" text-anchor="middle">域名 → IP 地址</text>
+  <rect class="card" x="900" y="150" width="240" height="180" rx="22"/>
+  <text class="text" x="1020" y="215" text-anchor="middle">Web 服务器</text><text class="small" x="1020" y="260" text-anchor="middle">返回 HTML</text><text class="small" x="1020" y="292" text-anchor="middle">状态码与响应头</text>
+  <path class="line" d="M300 190 C370 140 410 135 480 150"/><text class="small" x="380" y="125">① 查询</text>
+  <path class="line" d="M480 215 C410 255 370 265 300 245"/><text class="small" x="376" y="300">② IP</text>
+  <path class="line" d="M300 315 C510 400 700 400 900 315"/><text class="small" x="595" y="405" text-anchor="middle">③ HTTPS 请求</text>
+  <path class="line" d="M900 255 C700 335 500 335 300 255"/><text class="small" x="600" y="325" text-anchor="middle">④ HTML 响应</text>
+  <rect class="card" x="240" y="465" width="720" height="100" rx="22"/>
+  <text class="text" x="600" y="510" text-anchor="middle">⑤ 解析 HTML → 请求 CSS / JavaScript / 图片 → 布局与绘制</text>
+  <text class="small" x="600" y="545" text-anchor="middle">开发者工具 Network 面板可以观察每个资源的状态与耗时</text>
+</svg>

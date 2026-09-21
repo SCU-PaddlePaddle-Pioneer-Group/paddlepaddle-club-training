@@ -1,0 +1,24 @@
+{{ define "main" }}
+  <section class="hero">
+    <p class="eyebrow">WEB · OPEN SOURCE · NOTES</p>
+    <h1>{{ .Title }}</h1>
+    <div class="lede">{{ .Content }}</div>
+    <a class="button" href="{{ "posts/" | relURL }}">开始阅读</a>
+  </section>
+
+  <section aria-labelledby="latest-title">
+    <div class="section-heading">
+      <h2 id="latest-title">最新文章</h2>
+      <a href="{{ "posts/" | relURL }}">查看全部</a>
+    </div>
+    <div class="card-grid">
+      {{ range first 3 (where site.RegularPages "Section" "posts") }}
+        <article class="card">
+          <p class="meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time></p>
+          <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+          <p>{{ .Description }}</p>
+        </article>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

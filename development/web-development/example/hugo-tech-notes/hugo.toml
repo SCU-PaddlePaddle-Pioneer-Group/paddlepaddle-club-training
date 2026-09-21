@@ -1,0 +1,21 @@
+baseURL = 'https://GITHUB_USER.github.io/REPOSITORY/'
+locale = 'zh-CN'
+title = '技术手记'
+defaultContentLanguage = 'zh'
+enableRobotsTXT = true
+
+[params]
+  description = '一个用于学习 Hugo、Web 开发与部署的最小技术笔记站。'
+  author = '示例作者'
+
+[taxonomies]
+  tag = 'tags'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = false
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

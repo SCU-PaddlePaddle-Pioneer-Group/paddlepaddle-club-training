@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <article class="article">
+    <header class="article-header">
+      <p class="eyebrow">ARTICLE</p>
+      <h1>{{ .Title }}</h1>
+      <p class="meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006 年 01 月 02 日" }}</time></p>
+      {{ with .Description }}<p class="lede">{{ . }}</p>{{ end }}
+    </header>
+    <div class="prose">{{ .Content }}</div>
+    {{ with .GetTerms "tags" }}
+      <footer class="tags" aria-label="文章标签">
+        {{ range . }}<a href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a>{{ end }}
+      </footer>
+    {{ end }}
+  </article>
+{{ end }}
