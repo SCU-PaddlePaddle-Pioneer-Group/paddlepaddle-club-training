@@ -30,3 +30,7 @@ development/
 ## 推荐主题模板
 
 每个主题的 `README.md` 至少包含：学习目标、先修知识、课程大纲、实践项目、延伸阅读和完成标准。
+
+## 已上传教程
+
+- [团队开发与 Git 操作指南](./git-and-collaboration/团队开发与Git操作指南.md)
