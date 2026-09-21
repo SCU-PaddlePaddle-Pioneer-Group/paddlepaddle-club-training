@@ -25,18 +25,7 @@
 
 ## 贡献者
 
-目前已确认的贡献者：
-
 - Jack Yao / [@Vantalens](https://github.com/Vantalens)：教程编写、代码与配图整理、仓库维护
-
-更多贡献者可查看 [GitHub Contributors](https://github.com/SCU-PaddlePaddle-Pioneer-Group/paddlepaddle-club-training/graphs/contributors)。欢迎通过 Issue 或 Pull Request 提交教程、代码、勘误和建议。
-
-## 特别鸣谢
-
-- [四川大学飞桨领航团](https://github.com/SCU-PaddlePaddle-Pioneer-Group)
-- [PaddlePaddle / 飞桨](https://www.paddlepaddle.org.cn/)
-- Git、GitHub、Pro Git、PyTorch 和 Visual Studio Code 官方文档
-- 所有参与授课、讨论、试用、反馈和资料整理的社团成员
 
 ## 目录结构
 
