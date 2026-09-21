@@ -67,20 +67,20 @@
 
 | 日期 | 教程 / 文件 | 版本 | 更新内容 | 参与者 |
 | --- | --- | --- | --- | --- |
-| 2026-09-04 | CNN 从原理到实践 | 首次收录 | 收录 CNN 原理教程、CIFAR-10 PyTorch 训练脚本和 PNG/SVG 配图 | 原文件未署名；资料由 Jack Yao 整理上传 |
-| 2026-09-14 | 团队开发与 Git 操作指南 | v1.0.0 | 首次发布，覆盖 Git 与 GitHub 基础、功能分支、Fork、Pull Request、评审、冲突、安全撤销和故障排查 | Jack Yao |
+| 2026-09-04 | CNN 从原理到实践 | 首次收录 | 收录 CNN 原理教程、CIFAR-10 PyTorch 训练脚本和 PNG/SVG 配图 | Jack Yao / @Vantalens |
+| 2026-09-14 | 团队开发与 Git 操作指南 | v1.0.0 | 首次发布，覆盖 Git 与 GitHub 基础、功能分支、Fork、Pull Request、评审、冲突、安全撤销和故障排查 | Jack Yao |`n| 2026-09-21 | CNN 从原理到实践 | v1.0.1 | 补充作者署名：Jack Yao / @Vantalens | Jack Yao |
 | 2026-09-21 | AI 分类说明与仓库 README | v1.2.0 | 加入 CNN 教程导航、AI 分类入口、主要内容索引和当前资料状态 | Jack Yao |
 
 后续更新教程时，建议记录变更日期、版本号、主要改动、影响章节、验证方式和参与者。
 
 ## 教程制作参与者名录
 
-以下名单依据当前源文件和仓库提交记录整理。CNN 教程源文件本身未包含作者署名，因此暂不将上传者直接认定为原始作者；如原作者或其他制作参与者确认身份，可通过 Pull Request 补充。
+以下名单依据当前源文件和仓库提交记录整理。CNN 教程作者为 Jack Yao / @Vantalens；如有其他制作参与者，后续将在确认本人信息后补充。
 
 | 姓名 / GitHub 账号 | 参与角色 | 已确认工作 | 参与教程 |
 | --- | --- | --- | --- |
 | Jack Yao / [@Vantalens](https://github.com/Vantalens) | 教程编写与迭代 | 编写并维护《团队开发与 Git 操作指南》源文件 | 教程 01 |
-| 原文件未署名 | 原始教程作者 | CNN 教程源文件未提供可核实的作者信息 | 教程 02 |
+| Jack Yao / [@Vantalens](https://github.com/Vantalens) | 原始作者、编写与维护 | 编写并维护《CNN 从原理到实践》 | 教程 02 |
 | Jack Yao / [@Vantalens](https://github.com/Vantalens) | 资料整理与仓库维护 | 创建资料仓库、上传两份教程及配图/代码、维护目录和 README | 教程 01、教程 02、仓库整体 |
 
 ## 贡献者名录
@@ -89,7 +89,7 @@
 
 | 贡献者 | 贡献类型 | 已完成内容 |
 | --- | --- | --- |
-| Jack Yao / [@Vantalens](https://github.com/Vantalens) | 文档、代码、资料整理、仓库维护 | 初始化仓库，收录 Git 教程和 CNN 教程，上传配图与 CIFAR-10 训练脚本，维护分类说明和 README |
+| Jack Yao / [@Vantalens](https://github.com/Vantalens) | 文档、代码、资料整理、仓库维护 | 初始化仓库，收录 Git 教程和 CNN 教程，上传配图与 CIFAR-10 训练脚本，维护分类说明和 README；CNN 教程作者为 Jack Yao |
 
 也可以查看 GitHub 自动生成的[贡献者列表](https://github.com/SCU-PaddlePaddle-Pioneer-Group/paddlepaddle-club-training/graphs/contributors)。后续新增贡献者时，请记录真实发生且可追溯的文档、代码、勘误、测试反馈或培训建议，并在本人同意后公开姓名或账号。
 
