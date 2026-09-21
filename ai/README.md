@@ -7,8 +7,11 @@
 | 教程 | 主要内容 | 资料入口 |
 | --- | --- | --- |
 | CNN 从原理到实践 | 图像张量、卷积计算、多通道卷积、输出尺寸、参数量、激活函数、归一化、池化、感受野、Softmax 与交叉熵、训练过程、经典 CNN 架构和 CIFAR-10 实践 | [阅读教程](./cnn-from-principles-to-practice/CNN%20从原理到实践.md) |
+| Agent 与 Vibe Coding | Agent 基础、任务契约、计划与权限、测试和 Diff 审查、安全边界、Codex 实践 | [阅读教程](./agent-and-vibe-coding/) |
 
 教程目录同时包含可运行的 [CIFAR-10 PyTorch 训练脚本](./cnn-from-principles-to-practice/cnn_cifar10.py) 和配图资源。
+
+Agent 教程目录同时包含可复用的任务说明模板、人工审查清单和工作闭环配图。
 
 ## 学习路径
 

@@ -34,3 +34,5 @@ development/
 ## 已上传教程
 
 - [团队开发与 Git 操作指南](./git-and-collaboration/团队开发与Git操作指南.md)
+- [Web 开发：从网页到 Hugo 网站](./web-development/)
+- [服务器：从网络请求到 Linux 部署](./linux-server-deployment/)

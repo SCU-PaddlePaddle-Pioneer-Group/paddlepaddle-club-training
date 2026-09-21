@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+  <title id="title">Agent 可验证交付闭环</title><desc id="desc">开发任务从目标、上下文、约束与完成条件开始，经过计划、实现、测试和差异审查；失败则带证据返回修正，通过后由人验收。</desc>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#1c64a1"/></marker><style>.bg{fill:#eff7ff}.box{fill:#fff;stroke:#18364f;stroke-width:3}.human{fill:#e2f0ff;stroke:#1c64a1;stroke-width:4}.h{font:700 34px 'Microsoft YaHei',sans-serif;fill:#142d42}.t{font:23px 'Microsoft YaHei',sans-serif;fill:#18364f}.s{font:18px 'Microsoft YaHei',sans-serif;fill:#536b7d}.l{stroke:#1c64a1;stroke-width:5;fill:none;marker-end:url(#a)}</style></defs>
+  <rect class="bg" width="1200" height="640" rx="32"/><text class="h" x="60" y="72">Vibe 可以启动探索，但交付必须形成证据闭环</text>
+  <rect class="human" x="60" y="135" width="250" height="150" rx="22"/><text class="t" x="185" y="185" text-anchor="middle">任务契约</text><text class="s" x="185" y="225" text-anchor="middle">目标 · 上下文 · 约束</text><text class="s" x="185" y="255" text-anchor="middle">完成条件</text>
+  <rect class="box" x="370" y="135" width="170" height="150" rx="22"/><text class="t" x="455" y="205" text-anchor="middle">计划</text><text class="s" x="455" y="240" text-anchor="middle">先理解再改</text>
+  <rect class="box" x="600" y="135" width="170" height="150" rx="22"/><text class="t" x="685" y="205" text-anchor="middle">实现</text><text class="s" x="685" y="240" text-anchor="middle">小步修改</text>
+  <rect class="box" x="830" y="135" width="170" height="150" rx="22"/><text class="t" x="915" y="205" text-anchor="middle">验证</text><text class="s" x="915" y="235" text-anchor="middle">构建 · 测试</text><text class="s" x="915" y="260" text-anchor="middle">lint · 行为</text>
+  <line class="l" x1="310" y1="210" x2="370" y2="210"/><line class="l" x1="540" y1="210" x2="600" y2="210"/><line class="l" x1="770" y1="210" x2="830" y2="210"/>
+  <rect class="human" x="830" y="385" width="270" height="150" rx="22"/><text class="t" x="965" y="440" text-anchor="middle">人工验收</text><text class="s" x="965" y="475" text-anchor="middle">读 Diff · 查风险</text><text class="s" x="965" y="505" text-anchor="middle">接受或退回</text>
+  <path class="l" d="M915 285 L915 385"/><text class="s" x="935" y="340">通过</text>
+  <path class="l" d="M830 460 C610 590 345 565 260 285"/><text class="s" x="530" y="570">失败：携带错误、日志和差异返回修正</text>
+  <text class="s" x="600" y="615" text-anchor="middle">Agent 负责扩大执行能力；人负责目标、权限、风险判断与最终责任。</text>
+</svg>
